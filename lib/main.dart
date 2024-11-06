@@ -36,54 +36,60 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.phone,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(width: 10.0),
-                    Text(
-                      '010 90 28 3565',
-                      style: TextStyle(
-                        color: Colors.teal[900],
-                        fontFamily: 'SourceSans',
-                        fontSize: 20.0,
+                // padding: EdgeInsets.all(10.0),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.phone,
+                        color: Colors.teal,
                       ),
-                    )
-                  ],
+                      SizedBox(width: 10.0),
+                      Text(
+                        '010 90 28 3565',
+                        style: TextStyle(
+                          color: Colors.teal[900],
+                          fontFamily: 'SourceSans',
+                          fontSize: 20.0,
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.email,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(width: 10.0),
-                    Text(
-                      'komar4727@gmail.com',
-                      style: TextStyle(
-                        color: Colors.teal[900],
-                        fontFamily: 'SourceSans',
-                        fontSize: 20.0,
+                // padding: EdgeInsets.all(10.0),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal,
                       ),
-                    )
-                  ],
+                      SizedBox(width: 10.0),
+                      Text(
+                        'komar4727@gmail.com',
+                        style: TextStyle(
+                          color: Colors.teal[900],
+                          fontFamily: 'SourceSans',
+                          fontSize: 20.0,
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               )
             ],
